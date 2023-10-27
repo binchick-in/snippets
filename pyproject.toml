@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "snippets"
+version = "0.1"
+description = "A library of reference code and cool things I've learned."
+authors = ["binchick-in <pypi@binchick.in>"]
+license = "The Unlicense"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
